@@ -2,7 +2,7 @@
 
 *Javascript Ninja* é um curso ministrado por [@da2k](https://github.com/da2k).
 
-Nesse repositório, estão as respostas aos desafios, todas respondidas por mim,  [@fepas]((https://github.com/fepas)).
+Nesse repositório, estão as respostas aos desafios, todas respondidas por mim,  [@fepas](https://github.com/fepas).
 
 Compre [aqui](https://www.udemy.com/curso-javascript-ninja/) o curso.
 
