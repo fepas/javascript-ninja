@@ -1,6 +1,6 @@
 # Challenge 3#
 
-answered by @fepas
+answered by [@fepas](https://github.com/fepas)
 
 ```js
 // Declarar uma variável qualquer, que receba um objeto vazio.

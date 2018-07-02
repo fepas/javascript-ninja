@@ -1,6 +1,6 @@
 # Challenge 1#
 
-answered by @fepas
+answered by [@fepas](https://github.com/fepas)
 
 ```js
 // Declarar uma variável chamada `myvar`, sem valor.

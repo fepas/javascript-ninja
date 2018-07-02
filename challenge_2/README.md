@@ -1,6 +1,6 @@
 # Challenge 2#
 
-answered by @fepas
+answered by [@fepas](https://github.com/fepas)
 
 ```js
 // Crie uma função que receba dois argumentos e retorne a soma dos mesmos.
