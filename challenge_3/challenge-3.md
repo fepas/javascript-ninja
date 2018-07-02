@@ -1,4 +1,4 @@
-# Challenge 1#
+# Challenge 3#
 
 answered by @fepas
 
@@ -23,7 +23,7 @@ var pessoa = {
   sobrenome : 'Campos',
   sexo: 'm',
   idade: 20,
-  altura: 178,
+  altura: 1.78,
   peso: 90,
   andando: false,
   caminhouQuantosMetros: 0,
@@ -66,7 +66,7 @@ Crie um método chamado `nomeCompleto`, que retorne a frase:
 - "Olá! Meu nome é [NOME] [SOBRENOME]!"
 */
 pessoa.nomeCompleto = function(){
-  return 'Olá, meu none é ' + pessoa.nome + ' ' + pessoa.sobrenome;
+  return 'Olá, meu nome é ' + pessoa.nome + ' ' + pessoa.sobrenome;
 };
 
 
@@ -82,79 +82,90 @@ pessoa.mostrarIdade = function(){
 Crie um método chamado `mostrarPeso`, que retorne a frase:
 - "Eu peso [PESO]Kg."
 */
-?
+pessoa.mostrarPeso = function(){
+  return 'Eu peso ' + pessoa.peso + 'Kg';
+};
+
 
 /*
 Crie um método chamado `mostrarAltura` que retorne a frase:
 - "Minha altura é [ALTURA]m."
 */
-?
+pessoa.mostrarAltura = function(){
+    return 'Minha altura é ' + pessoa.altura + 'm';
+};
 
 /*
 Agora vamos brincar um pouco com o objeto criado:
 Qual o nome completo da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+pessoa.nomeCompleto(); // 'Olá, meu nome é Felipe Campos'
+
 
 /*
 Qual a idade da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+pessoa.mostrarIdade(); //'Olá, eu tenho 20 anos'
 
 /*
 Qual o peso da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+pessoa.mostrarPeso(); //'Eu peso 90Kg'
 
 /*
 Qual a altura da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+pessoa.mostrarAltura(); //'Minha altura é 1.78m' 90Kg'
+
 
 /*
 Faça a `pessoa` fazer 3 aniversários.
 */
-?
+pessoa.fazerAniversario();
+pessoa.fazerAniversario();
+pessoa.fazerAniversario();
 
 /*
 Quantos anos a `pessoa` tem agora? (Use a instrução para responder e
 comentários inline ao lado da instrução para mostrar qual foi a resposta
 retornada)
 */
-?
+pessoa.mostrarIdade(); //'Olá, eu tenho 23 anos'
 
 /*
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
 com metragens diferentes passadas por parâmetro.
 */
-?
+pessoa.andar(1);
+pessoa.andar(2);
+pessoa.andar(3);
 
 /*
 A pessoa ainda está andando? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-?
+pessoa.andando; //true
 
 /*
 Se a pessoa ainda está andando, faça-a parar.
 */
-?
+pessoa.parar();
 
 /*
 E agora: a pessoa ainda está andando? (Use uma instrução para responder e
 comentários inline ao lado da instrução para mostrar a resposta retornada)
 */
-?
+pessoa.andando; //false
 
 /*
 Quantos metros a pessoa andou? (Use uma instrução para responder e comentários
 inline ao lado da instrução para mostrar a resposta retornada)
 */
-?
+pessoa.caminhouQuantosMetros; //'6'
 
 /*
 Agora vamos deixar a brincadeira um pouco mais divertida! :D
@@ -173,8 +184,40 @@ deve conter no retorno da frase acima é "metro" no lugar de "metros".
 método), que será concatenada com a frase de retorno, mostrando a resposta
 correta, de acordo com os dados inseridos no objeto.
 */
-?
+pessoa.apresentação = function(){
+    var nome;
+    var idade;
+    var alturaPeso;
+    var metrosCaminhados;
+    if(pessoa.sexo == 'm'){
+      var nome = 'Olá, eu sou o ' + pessoa.nome + ' ' + pessoa.sobrenome + ', ';
+    }
+    else{
+      var nome = 'Olá, eu sou a ' + pessoa.nome + ' ' + pessoa.sobrenome + ', ';
+    }
+
+    if(pessoa.idade > 1){
+      var idade = 'tenho ' + pessoa.idade +' anos, ';
+    }
+    else{
+      var idade = 'tenho ' + pessoa.idade + ' ano, ';
+    }
+
+    var alturaPeso = pessoa.altura + ', meu peso é ' + pessoa.peso +' e, ';
+
+    if(pessoa.caminhouQuantosMetros == 1){
+      var metrosCaminhados = 'só hoje, eu já caminhei ' + pessoa.caminhouQuantosMetros + ' metro!';
+    }
+    else{
+      var metrosCaminhados = 'só hoje, eu já caminhei ' + pessoa.caminhouQuantosMetros + ' metros!';
+    }
+
+    return nome + idade + alturaPeso + metrosCaminhados;
+}
+
+
 
 // Agora, apresente-se ;)
-?
+pessoa.apresentação();
+//'Olá, eu sou o Felipe Campos, tenho 20 anos, 1.78, meu peso é 90 e, só hoje, eu já caminhei 0 metros!'
 ```
