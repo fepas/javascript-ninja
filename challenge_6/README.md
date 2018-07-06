@@ -1,4 +1,4 @@
-# Challenge 2#
+# Challenge 6#
 
 answered by [@fepas](https://github.com/fepas)
 
