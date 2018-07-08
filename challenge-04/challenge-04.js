@@ -1,8 +1,3 @@
-# Challenge 4#
-
-answered by [@fepas](https://github.com/fepas)
-
-```js
 /*
 Declare uma variável chamada `isTruthy`, e atribua a ela uma função que recebe
 um único parâmetro como argumento. Essa função deve retornar `true` se o
@@ -192,4 +187,3 @@ console.log(carro.adicionarPessoas(10));//'Só cabem mais 4 pessoas!'
 
 // Quantas pessoas temos no carro?
 console.log(carro.quantidadePessoas); // 1
-```

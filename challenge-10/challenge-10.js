@@ -1,8 +1,3 @@
-# Challenge 10#
-
-answered by [@fepas](https://github.com/fepas)
-
-```js
 (function() {
     /*
     Crie uma IIFE que envolva todo esse arquivo (inclusive esse comentário),
@@ -222,4 +217,3 @@ answered by [@fepas](https://github.com/fepas)
 
     
 })();
-```

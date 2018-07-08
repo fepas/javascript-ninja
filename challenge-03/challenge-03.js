@@ -1,8 +1,3 @@
-# Challenge 3#
-
-answered by [@fepas](https://github.com/fepas)
-
-```js
 // Declarar uma variável qualquer, que receba um objeto vazio.
 var pessoa = {};
 
@@ -220,4 +215,3 @@ pessoa.apresentação = function(){
 // Agora, apresente-se ;)
 console.log(pessoa.apresentação());
 //'Olá, eu sou o Felipe Campos, tenho 20 anos, 1.78, meu peso é 90 e, só hoje, eu já caminhei 0 metros!'
-```

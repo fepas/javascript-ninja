@@ -1,8 +1,3 @@
-# Challenge 2#
-
-answered by [@fepas](https://github.com/fepas)
-
-```js
 // Crie uma função que receba dois argumentos e retorne a soma dos mesmos.
 function soma( a, b){
     return a + b;
@@ -94,4 +89,3 @@ function soma( a, b){
   console.log(calculo(1, 2)); // 3
   console.log(calculo(1)); // 1
   console.log(calculo()); // false
-```

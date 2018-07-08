@@ -1,8 +1,3 @@
-# Challenge 5#
-
-answered by [@fepas](https://github.com/fepas)
-
-```js
 /*
 Crie uma variável qualquer, que receba um array com alguns valores aleatórios
 - ao menos 5 - (fica por sua conta os valores do array).
@@ -110,4 +105,3 @@ a frase:
 "O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
 */
 console.log('O livro Eldest foi publicado pela editora ' + book('Eldest').editora + '.');
-```

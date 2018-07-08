@@ -1,8 +1,3 @@
-# Challenge 1#
-
-answered by [@fepas](https://github.com/fepas)
-
-```js
 // Declarar uma variável chamada `myvar`, sem valor.
 var myvar;
 
@@ -43,4 +38,3 @@ function divisao(a, b){
 
 // Invoque a função criada acima, passando os parâmetros 10 e 2.
 console.log(divisao(10, 2));
-```

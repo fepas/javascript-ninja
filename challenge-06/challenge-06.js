@@ -1,8 +1,3 @@
-# Challenge 6#
-
-answered by [@fepas](https://github.com/fepas)
-
-```js
 /*
 Vamos falar um pouco sobre "Futebol". Escolha um campeonato estadual qualquer
 para começar o desafio.
@@ -111,4 +106,3 @@ console.log(convertToHex('amarelo'));
 console.log(convertToHex('laranjado'));
 console.log(convertToHex('preto'));
 console.log(convertToHex('púrpura'));
-```
